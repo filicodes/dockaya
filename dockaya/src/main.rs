@@ -5,6 +5,7 @@ use clap::Parser;
 use log::{debug, warn};
 use tokio::signal;
 
+// YOU MUST CHANGE THE INTERFACE
 #[derive(Debug, Parser)]
 struct Opt {
     #[clap(short, long, default_value = "wlo1")]
