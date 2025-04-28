@@ -8,7 +8,7 @@ git config --global user.name "filicodes"
 git config --global user.email "nimeshadls8@gmail.com"
 
 # Set remote URL with GitHub token
-git remote set-url origin https://${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}@github.com/filicodes/dockaya.git
+git remote set-url origin https://${GITHUB_TOKEN}@github.com/filicodes/dockaya.git
 
 # Pull latest (optional)
 git pull origin main
