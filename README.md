@@ -1,4 +1,4 @@
-# dockaya
+# dockaya :)
 
 The entire dockerfile will be uploaded shortly.
 
