@@ -14,7 +14,7 @@ echo "exec 2"
 git branch -M main
 echo "exec 3"
 # Set remote URL with GitHub token
-git remote add origin https://github.com/filicodes/dockaya.git
+git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/filicodes/dockaya.git
 
 echo "exec 4"
 
