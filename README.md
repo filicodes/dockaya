@@ -22,7 +22,7 @@ alias dockaya="docker run --rm -it --name aya \
                     --network host \
                     -v /:/host \
                     -v /sys/kernel/debug:/sys/kernel/debug \
-                    -e GITHUB_TOKEN=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 \
+                    -e GITHUB_TOKEN=****** \
                     -w /host/root/dockaya/dockaya \
                     littlejo/aya:1.0.1 bash -c 'apt-get update && apt-get install git && git init && git pull https://github.com/filicodes/dockaya.git && bash'
 "
