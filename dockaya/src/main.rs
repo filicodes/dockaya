@@ -8,7 +8,7 @@ use tokio::signal;
 // YOU MUST CHANGE THE INTERFACE -- hahahahah
 #[derive(Debug, Parser)]
 struct Opt {
-    #[clap(short, long, default_value = "wlo1")]
+    #[clap(short, long, default_value = "eth0")]
     iface: String,
 }
 
